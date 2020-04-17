@@ -1,0 +1,81 @@
+body {
+    background-image: url('BipolarAfbeeldingen/Achtergronddag-01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1.5s;
+}
+
+body.dag {
+    background-image: url('BipolarAfbeeldingen/Achtergronddag-01.png');
+}
+
+body.namiddag {
+    background-image: url('BipolarAfbeeldingen/Achtergrondmiddag-01.png');
+}
+
+body.nacht {
+    background-image: url('BipolarAfbeeldingen/Achtergrondnacht-01.png');
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    width: 50%;
+    border-style: dashed;
+    border-color: black;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    border-radius: 30px;
+    border-width: 2px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    width: 50%;
+    border-style: dashed;
+    border-color: black;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    border-radius: 30px;
+    border-width: 2px;
+}
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+    width: 50%;
+    height: 20%;
+    border-style: dashed;
+    border-color: black;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    border-radius: 30px;
+    border-width: 2px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    width: 50%;
+    height: 20%;
+    border-style: dashed;
+    border-color: black;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    border-width: 1px;
+    font-size: 15px;
+}
+
+button {
+    background-color: lightsalmon;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+Section img {
+    height: 100px;
+    width: 80px;
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+}
